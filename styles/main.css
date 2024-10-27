@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    color: #000000;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+h1 {
+    font: 600 33px 'Inter';
+    margin-bottom: 16px;
+}
+
+hr.underline {
+    border: solid 3px #555555;
+    width: 48px;
+    margin-bottom: 32px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+svg {
+    width: 10px;
+    height: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 0 0 0 253px;
+}
+
+.sidebar {
+    margin-right: 72px;
+    padding-top: 117px;
+    border-right: 1px solid #E3E4E5;
+}
+
+.sidebar > p {
+    font: 400 14.75px 'Inter';
+    color: #555555;
+    margin-bottom: 36px;
+    margin-right: 10px;
+}
+
+.sidebar nav ul li {
+    border-top: 1px solid #E3E4E5;
+    margin-right: 6px;
+    padding: 14.5px 0 13.5px 8px;
+    color: #555555;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+
+.sidebar nav ul li:hover, .sidebar nav ul a li.active  {
+    font-weight: bold;
+    background: #FAFAFA;
+    color: #333333;
+}
+
+.sidebar nav ul a:last-child > li {
+    border-bottom: 1px solid #E3E4E5;
+    margin-bottom: 48px;
+}
+
+.sidebar nav button {
+    width: 200px;
+    height: 48px;
+    background: none;
+    border: 2px solid #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar nav button span {
+    font: 500 11px 'Inter';
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sidebar nav button svg {
+    width: 16px;
+    height: 16px;
+}
+
+
+/*===========================*/
+/* PAGINA INICIAL */
+/*===========================*/
+.content {
+    margin-right: 210px;
+    padding-top: 121px;
+}
+
+.content .media {
+    margin-bottom: 32px;
+}
+
+.content .media img {
+    width: 1022px;
+    height: 576px;
+    background: #000000;
+}
+
+.content .introduction {
+    display: flex;
+}
+
+.content .introduction .journey {
+    padding-top: 39px;
+}
+
+.content .introduction .journey h2 {
+    font: 600 32px 'Inter';
+    letter-spacing: -1px;
+    margin-bottom: 35px;
+}
+
+.content .introduction .journey p {
+    font: 400 15px 'Inter';
+    color: #555555;
+    letter-spacing: -0.1px;
+    margin-right: 33px;
+    padding-right: 10px;
+    line-height: 25px;
+    margin-bottom: 92px;
+}
+
+.content .social {
+    margin-top: 49px;
+}
+
+.content .social p {
+    font: 400 13px 'Inter';
+    line-height: 20px;
+    color: #555555;
+    padding-right: 70px;
+    margin-bottom: 16px;
+}
+
+.content .social ul {
+    font: 400 13px 'Inter';
+    line-height: 23.92px;
+    color: #555555;
+}
+
+.content .social ul li:hover {
+    font-weight: bold;
+}
+
+.separator {
+    border: 1px solid #E3E4E5;
+    margin-bottom: 56px;
+}
+
+.content .highlights {
+    display: flex;
+    margin-bottom: 95px;
+}
+
+.content .highlights .highlight-item {
+    width: 314px;
+}
+
+.content .highlights .highlight-item:first-child > p {
+    padding-top: 25px;
+}
+
+.content .highlights .highlight-item:last-child {
+    padding-right: 20px;
+}
+
+.content .highlights .highlight-item + .highlight-item {
+    margin-left: 36.73px;
+}
+
+.content .highlights .highlight-item .icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content .highlights .highlight-item .icon-container svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.content .highlights .highlight-item .icon-container h3 {
+    font: 500 20px 'Inter';
+    color: #333333;
+}
+
+.content .highlights .highlight-item p {
+    font: 400 14px 'Inter';
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    color: #555555;
+}
+
+.container footer {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+
+.container footer .summary span {
+    font-size: 20px;
+}
+
+.container footer .summary h3 {
+    font: 700 11px 'Inter';
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 11px 0;
+}
+
+.container footer .summary p {
+    width: 330px;
+    font: 400 14.75px 'Inter';
+    color: #555555;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+
+.container footer .links h3 {
+    font: 700 11.25px 'Inter';
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.container footer .links ul li {
+    font: 400 11.44px 'Inter';
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 18px;
+    transition: 0.5s ease;
+}
+
+.container footer .links ul li:hover {
+    text-decoration: underline;
+}
+
+
+/*===========================*/
+/* SOBRE */
+/*===========================*/
+
+.about-content {
+    padding-right: 169px;
+    padding-top: 115px;
+}
+
+.about-content .title {
+    margin-bottom: 99px;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 12px;
+}
+
+.about-content .title span {
+    border-bottom: 4px solid #000000;
+    position: relative;
+    bottom: 3px;
+    padding-bottom: 12px;
+    font: 600 15px 'Inter';
+    letter-spacing: -0.08px;
+    color: #404040;
+}
+
+.about-content .bio {
+    padding-right: 90px;
+}
+
+.about-content .bio h2 {
+    font: 600 24px 'Inter';
+    letter-spacing: -0.6px;
+    margin-bottom: 41px;
+}
+
+.about-content .bio .profile {
+    display: flex;
+}
+
+.about-content .bio .profile figure img {
+    width: 293px;
+    height: 425px;
+    background: #D9D9D9;
+    border: none;
+}
+
+.about-content .bio .profile figure figcaption {
+    margin-top: 8px;
+    font: 400 18px 'Inter';
+    letter-spacing: -0.08px;
+    color: #52525B;
+}
+
+.about-content .bio .profile .presentation {
+    margin-left: 51px;
+}
+
+.about-content .bio .profile .presentation .introduction {
+    padding-right: 27px;
+}
+
+.about-content .bio .profile .presentation .introduction h3 {
+    font: 600 16px 'Inter';
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-content .bio .profile .presentation .introduction p {
+    font: 400 18px 'Inter';
+    color: #52525B;
+    margin-bottom: 60px;
+    line-height: 25.2px;
+    letter-spacing: -0.08px;
+}
+
+.about-content .bio .profile .presentation .introduction p:last-child {
+    margin-top: -30px;
+    margin-bottom: 88px;
+}
+
+.about-content .bio .profile .presentation .fun-block h2 {
+    font: 600 24px 'Inter';
+    letter-spacing: -0.06px;
+    margin-bottom: 55px;
+}
+
+.about-content .bio .profile .presentation .fun-block .fun-block-item {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.about-content .bio .profile .presentation .fun-block .fun-block-item:last-child {
+    margin-bottom: 188px;
+}
+
+.about-content .bio .profile .presentation .fun-block .fun-block-item .fun-icon {
+    display: flex;
+}
+
+.about-content .bio .profile .presentation .fun-block .fun-block-item .fun-content {
+    margin-left: 55px;
+}
+
+.about-content .bio .profile .presentation .fun-block .fun-block-item .fun-content h3 {
+    font: 600 18px 'Inter';
+    letter-spacing: -0.08px;
+    margin-bottom: 20px;
+}
+
+.about-content .bio .profile .presentation .fun-block .fun-block-item .fun-content p {
+    font: 400 18px 'Inter';
+    color: #52525B;
+    letter-spacing: -0.08px;
+    line-height: 25.2px;
+}
